@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishka Yadav - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e3f2fd; /* Very light sky blue background */
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #d0e8fc; /* Light sky blue header background */
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #b3d9fc; /* Subtle border for emphasis */
+        }
+        .header .logo {
+            font-size: 36px;
+            font-weight: 600;
+            color: #003e5c; /* Darker blue text for contrast */
+            margin: 0;
+        }
+        .navbar {
+            margin-top: 10px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            color: #003e5c; /* Darker blue text color for the navigation links */
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background-color: #b3d9fc; /* Slightly lighter blue hover effect */
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #d0e8fc; /* Light sky blue with slight transparency */
+            color: #003e5c; /* Darker blue text color */
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+        .hero .btn {
+            padding: 10px 30px;
+            background-color: #0277bd; /* Darker blue button color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .hero .btn:hover {
+            background-color: #01579b; /* Slightly darker blue on hover */
+        }
+        .about, .portfolio, .skills, .contact {
+            padding: 60px 20px;
+            background: #eaf6ff; /* Very light sky blue background */
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .portfolio-item {
+            width: 300px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .portfolio-item h3 {
+            margin: 10px 0;
+        }
+        .portfolio-item p {
+            font-size: 16px;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 18px;
+        }
+        .contact-info a {
+            color: #0277bd; /* Darker blue for contact links */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0277bd; /* Darker blue footer background */
+            color: #fff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tanishka Yadav</h1>
+            <nav class="navbar">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Hi, I'm Tanishka Yadav</h2>
+            <p>Mobile App Developer</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Tanishka Yadav, a 19-year-old mobile app developer passionate about creating innovative apps that enhance user experiences. I'm currently pursuing a Bachelor of Computer Applications (BCA) from The NorthCap University. I completed my schooling at Delhi Public School. With a background in graphic design and computer applications, I bring a unique blend of creativity and technical skills to my work. My goal is to develop applications that solve real-world problems and provide value to users.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <!-- Project: COVID Dataset -->
+                <div class="portfolio-item">
+                    <h3>COVID Dataset</h3>
+                    <p>A project that involves analyzing COVID-19 data to identify trends and insights. It includes data visualization and statistical analysis to better understand the impact of the pandemic.</p>
+                </div>
+                <!-- Project: Library Management in MySQL -->
+                <div class="portfolio-item">
+                    <h3>Library Management in MySQL</h3>
+                    <p>A database management system designed for managing library resources, including books, borrowers, and transactions. This project demonstrates my skills in MySQL and database design.</p>
+                </div>
+                <!-- Project: TripSnap -->
+                <div class="portfolio-item">
+                    <h3>TripSnap</h3>
+                    <p>TripSnap is a tourism app designed to help users discover and plan their perfect trips. It offers personalized recommendations, travel guides, and booking options to make travel planning easier and more enjoyable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Mobile App Development</li>
+                <li>Graphic Design</li>
+                <li>UI/UX Design</li>
+                <li>Front-End Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p class="contact-info">Phone: <a href="tel:9315183181">9315183181</a></p>
+            <p class="contact-info">Email: <a href="mailto:tanishkay467@gmail.com">tanishkay467@gmail.com</a></p>
+            <p class="contact-info">Instagram: <a href="https://www.instagram.com/rao_sahabni_014" target="_blank">@rao_sahabni_014</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tanishka Yadav. All rights reserved.</p>
+    </footer>
+</body>
+</html>
